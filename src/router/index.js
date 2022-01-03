@@ -8,14 +8,16 @@ const routes = [
   {
     path: '/',
     name: 'main',
-    component: () => import('../views/works/Portrait_A.vue')
+    component: () => import('../views/works/Portrait_A.vue'),
+    meta: { title: '肖像A', desc: '肖像A' }
   },
  
  
   {
     path: '/postscript',
     name: 'postscript',
-    component: () => import('../views/works/postscript.vue')
+    component: () => import('../views/works/postscript.vue'),
+    meta: { title: '肖像A', desc: '肖像A' }
   }  
 ]
 
