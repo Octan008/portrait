@@ -10,7 +10,7 @@
             <div style="color:white; width: 60%; ">
             <div style="border-left: 2px solid #999;font-size:10px;padding-left: 5px;margin-top:30px;">
                 <p>注意事項 | キーボード操作を含むため、モバイル端末ではご覧になれません。
-                <br>推奨ブラウザ | Google Chrome
+                <br>推奨ブラウザ | Google Chrome (シークレットモードではうまく動作しない場合があります)
                 <br>操作方法 | 移動:WASDキー, 視点: ← → キー </p>
             </div>
             <div style="margin-top:50px;">
