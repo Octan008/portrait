@@ -21,10 +21,12 @@
 モチーフとして取り上げた「肖像」という語は人物の視覚的な表象を表すが、ここでは人物の視覚表現を通して非視覚的な表象を構築する。</p>
             <!-- <p>共同制作者: 小池亮介, 児玉大樹, 鈴木大智</p> -->
             </div>
-            <p>Links: 
-            <a target="_blank" href = "https://vrchat.com/home/launch?worldId=wrld_c23360d0-f89f-4996-b607-ffa091ae6ad5">VRChat World</a>, 
-            <a target="_blank" href = "https://iiiexhibition.com/log/iiiEx2021/"> 東京大学制作展 0PUNK </a>, 
+            <p>Links:
+            <span class = "links">
+            <a target="_blank" href = "https://vrchat.com/home/launch?worldId=wrld_c23360d0-f89f-4996-b607-ffa091ae6ad5"> VRChat World</a>
+            <a target="_blank" href = "https://iiiexhibition.com/log/iiiEx2021/"> 東京大学制作展 0PUNK </a> 
             <a target="_blank" href = "/#/postscript"> あとがき </a>
+            </span>
             </p>
             </div>
 
@@ -58,3 +60,35 @@
         }
     }
 </script>
+<style scoped>
+HTML CSSResult Skip Results Iframe
+EDIT ON
+* {
+  box-sizing: border-box;
+}
+/* body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* 装飾 */
+.links :hover{
+  background-color: white;
+  color: #00331b;
+}
+.links a {
+  color: #fff;
+  background-color: transparent;
+  padding: 10px 30px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  border: solid 2px white;
+}
+
+</style>
